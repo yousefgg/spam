@@ -10,7 +10,7 @@ client.on('ready', async() => {
 var server = "510399878002901002"; // ايدي السررفر
 var channel = "510399878002901005";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam  , Magic Spam , Magic Spam, Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam **')
+    client.guilds.get(server).channels.get(channel).send(' DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , ')
     },305);
 })
 
