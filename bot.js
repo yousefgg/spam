@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "510399878002901002"; // ايدي السررفر
-var channel = "510399878002901005";//ايدي الروم
+var server = "514374008209276928"; // ايدي السررفر
+var channel = "514374161469145089";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send(' DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , ')
     },305);
