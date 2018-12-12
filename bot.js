@@ -1,14 +1,14 @@
  const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "!";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
 
 client.on('ready', async() => {
-var server = "514374008209276928"; // ايدي السررفر
-var channel = "514374161469145089";//ايدي الروم
+var server = "522375554067070977"; // ايدي السررفر
+var channel = "522375554067070979";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send(' DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , ')
     },305);
