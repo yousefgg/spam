@@ -1,4 +1,4 @@
-﻿ const Discord = require('discord.js');
+ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "1";
 
@@ -31,19 +31,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  });
 
 
-
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Cyhper Script By : DREAM`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dream | ${client.guilds.size} ${client.users.size} servers/user`,"http://twitch.tv/YouTube")
-client.user.setStatus("dnd")
-});
-
-
-
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
- 
