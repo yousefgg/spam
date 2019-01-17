@@ -1,0 +1,49 @@
+﻿ const Discord = require('discord.js');
+const client = new Discord.Client();
+var prefix = "1";
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);  
+});
+
+client.on('ready', async() => {
+var server = "534811321825361920"; // ايدي السررفر
+var channel = "534811881508962326";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send(' DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam ,  DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , DxStArSx Spam , ')
+    },305);
+})
+
+client.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`ليس لديك صلاحيات`**');
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+
+
+
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Cyhper Script By : DREAM`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`Dream | ${client.guilds.size} ${client.users.size} servers/user`,"http://twitch.tv/YouTube")
+client.user.setStatus("dnd")
+});
+
+
+
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+ 
